@@ -1,4 +1,4 @@
-function ppretty-time() {
+function pretty-time() {
 local total_seconds="$1"
 days=$(( $total_seconds / 60 / 60 / 24 ))
 hours=$(( $total_seconds / 60 / 60 % 24 ))
